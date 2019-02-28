@@ -40,6 +40,8 @@ L'`index.js` sert aux pages qui ont besoin du composant, à s'abstraire de la lo
 Lors de la réalisation de cette démo, j'ai tenté d'aller un maximum à l'essentiel. J'ai donc noté des axes d'amélioration:
 
 - On pourrait ajouter du typage, exemple `FlowType` ou utiliser le langage `TypeScript` pour limiter les bugs au runtime.
+- Pour garder la base de code propre, il pourrait être intéressant d'installer un `linter` du style ESLint, couplé avec `Prettier`.
+- Pour armoniser les messages de commit, on pourrait ajouter `commitlint`, et générer un changelog.
 - Il aurait fallu écrire les services dans une logique TDD. Définir un fichier de specs, puis écrire le service.
 - Il pourrait être intéressant de mettre `Redux` en place si l'application venait à grossir. Aujourd'hui, je ne l'ai pas mis, délibérément, par manque de nécessité.
 - Si l'application ets destiné à un public international, on peut penser à mettre en place de l'`i18n`.

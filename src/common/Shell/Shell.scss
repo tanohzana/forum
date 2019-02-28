@@ -1,0 +1,33 @@
+.mainContainer {
+  .headerContainer {
+    height: 2em;
+  }
+
+  .titleContainer {
+    a {
+      color: black;
+    }
+    
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+  }
+
+  .contentContainer {
+    margin-bottom: 2em;
+  }
+
+  .footerContainer {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .homeIcon, .userIcon {
+    margin: 0.5em;
+    color: grey;
+  }
+
+  .userIcon {
+    float: right;
+  }
+}

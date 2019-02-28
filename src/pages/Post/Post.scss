@@ -1,0 +1,23 @@
+.mainContainer {
+  display: block;
+  width: 70%;
+  margin: auto;
+
+  h1 {
+    span {
+      margin-left: 0.5em;
+    }
+  }
+
+  .postBody {
+    font-size: 15px;
+  }
+
+  .commentName {
+    margin-left: 0.2em;
+  }
+
+  .modalTriggerLink:hover {
+    cursor: pointer;
+  }
+}
